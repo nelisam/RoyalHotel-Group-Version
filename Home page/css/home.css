@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+  font-family: "Nunito";
+}
+
+nav{
+    width: 100%;
+    background-color: white !important;
+
+}
+.home img{
+  width: 100%;
+}
+.navbar{
+    padding: 1.2rem;
+    
+  }
+  .nav-head{
+    color: #FC3C3C;
+    border-radius: 2px;
+    font-size: 1.5rem;
+  }
+  .nav-head:hover{
+    color: #FC3C3C;
+    font-weight: bold;
+  }
+  .navbar-toggler-icon{
+    color: black;
+}
+.navbar-toggler{
+    background-color: Red;
+}
+
+.navbar-nav li {
+  padding-left: 30px;
+  
+}
+.nav-link {
+  font-size: 1.1em !important;
+  color: black;
+}
+.nav-link:hover{
+  color: #FC3C3C;
+  font-weight: bold;
+}
+.caption span.h4 {
+    color: #fff;
+    padding: 18px;
+    font-size: 50px;
+    letter-spacing: 10px;
+  }
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+  .rooms h3{
+    text-align: center;
+    font-size: 40px;  
+  }
+  .btn btn-danger{
+    align-self: center;
+  }
+
+  .form-input {
+    width: 100%;
+    min-width: 100%;
+    margin: 10px;
+    border: 1px solid indianred;
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  .btn-large-red {
+    background:  #FC3C3C !important;
+    border: none !important;
+    text-align: center !important;
+    padding-left: 65px !important;
+    border-radius: 10px !important;
+    width: 210px !important;
+    height: 72px !important;
+  }
+
+  .footer {
+    padding-bottom: 20px !important;
+  }
+
+  .input-underline {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 5px;
+    color: white;
+    min-width: 90%;
+  }
+
+  .footer-title-item {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .click-link {
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .responsive-motto {
+    font-size: 64px;
+  }
+  @media only screen and (max-width: 600px) {
+    .responsive-motto {
+      font-size: 30px;
+    }
+    .caption {
+      display: none;
+    }
+  }
+
+  .room-card {
+    transition: all .2s ease-in-out;
+  }
+
+  .room-card:hover {
+    transform: scale(1.001);
+    -webkit-transform: scale(1.1);
+  }
