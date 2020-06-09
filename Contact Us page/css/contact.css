@@ -1,0 +1,96 @@
+/*--------------------START OF SECTION--------------------*/
+
+/*--------------------END OF SECTION--------------------*/
+/*--------------------START OF BANNER SECTION--------------------*/
+
+.heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+}
+/*--------------------END OF BANNER SECTION--------------------*/
+
+/*--------------------START OF CONTACT SECTION--------------------*/
+
+/*SEND BUTTON*/
+
+.sendButton {
+  background-color: #fc3c3c;
+  border-radius: 10px;
+  border: 1px solid #fc3c3c;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 18px;
+  padding: 15px 73px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #fc3c3c;
+}
+.sendButton:hover {
+  background-color: #fc3c3c;
+  text-decoration: none;
+  color: white;
+}
+.sendButton:active {
+  position: relative;
+  top: 1px;
+}
+/*SEND BUTTON*/
+
+/*FORM SPACING*/
+
+.form-space {
+  padding: 15px;
+}
+/*FORM SPACING*/
+
+/*SOCIAL MEDIA*/
+.social-media li {
+  margin: 0 0.5rem;
+}
+
+.social-media i {
+  font-size: 1.5rem;
+}
+
+.nav-for-icon {
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.fa-linkedin {
+  color: #fc3c3c;
+}
+
+.fa-facebook-square {
+  color: #fc3c3c;
+}
+
+.fa-twitter-square {
+  color: #fc3c3c;
+}
+
+.fa-instagram-square {
+  color: #fc3c3c;
+}
+/*SOCIAL MEDIA*/
+
+/*CONTACT US SPACING*/
+.icon-space {
+  padding: 20px;
+}
+
+.contact-us {
+  padding-bottom: 40px;
+}
+/*CONTACT US SPACING*/
+/*--------------------END OF CONTACT SECTION--------------------*/
+
+/*--------------------START OF FOOTER--------------------*/
+
+/*--------------------END OF FOOTER--------------------*/

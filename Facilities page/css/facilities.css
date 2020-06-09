@@ -1,0 +1,21 @@
+/*--------------------START OF SECTION--------------------*/
+
+/*--------------------END OF SECTION--------------------*/
+/*--------------------START OF BANNER SECTION--------------------*/
+
+.heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+}
+/*--------------------END OF BANNER SECTION--------------------*/
+
+/*--------------------START OF REVIEW SECTION--------------------*/
+
+.resize {
+  padding: 50px 150px 30px 150px;
+}
+
+/*--------------------END OF REVIEW SECTION--------------------*/
